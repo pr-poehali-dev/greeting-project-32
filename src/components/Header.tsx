@@ -11,7 +11,7 @@ const Header = () => {
             <Icon name="ShoppingBag" className="h-5 w-5 text-white" />
           </div>
           <span className="text-xl font-bold text-black">
-            ShopHub
+            Acolit
           </span>
         </Link>
 
