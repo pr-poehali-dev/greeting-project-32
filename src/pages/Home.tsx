@@ -23,41 +23,41 @@ const Home = () => {
   ];
 
   const categories = [
-    { name: 'Электроника', icon: 'Laptop', color: 'bg-primary' },
-    { name: 'Одежда', icon: 'ShoppingBag', color: 'bg-secondary' },
-    { name: 'Дом и сад', icon: 'Home', color: 'bg-accent' },
-    { name: 'Спорт', icon: 'Dumbbell', color: 'bg-primary' }
+    { name: 'Верхняя одежда', icon: 'Shirt', color: 'bg-primary' },
+    { name: 'Платья', icon: 'ShoppingBag', color: 'bg-secondary' },
+    { name: 'Обувь', icon: 'Star', color: 'bg-accent' },
+    { name: 'Аксессуары', icon: 'Watch', color: 'bg-primary' }
   ];
 
   const featuredProducts = [
     {
       id: 1,
-      name: 'Беспроводные наушники',
-      price: 3499,
-      oldPrice: 4999,
-      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop',
+      name: 'Джинсовая куртка',
+      price: 4999,
+      oldPrice: 6999,
+      image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop',
       badge: 'Хит продаж'
     },
     {
       id: 2,
-      name: 'Умные часы',
-      price: 8999,
-      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop',
+      name: 'Летнее платье',
+      price: 2999,
+      image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop',
       badge: 'Новинка'
     },
     {
       id: 3,
-      name: 'Рюкзак для ноутбука',
-      price: 2499,
-      oldPrice: 3499,
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop',
+      name: 'Спортивные кроссовки',
+      price: 5499,
+      oldPrice: 7999,
+      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop',
       badge: '-30%'
     },
     {
       id: 4,
-      name: 'Портативная колонка',
-      price: 1999,
-      image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop',
+      name: 'Кожаная куртка',
+      price: 12999,
+      image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop',
       badge: 'Популярное'
     }
   ];

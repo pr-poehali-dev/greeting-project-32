@@ -7,10 +7,10 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center">
             <Icon name="ShoppingBag" className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <span className="text-xl font-bold text-gray-400">
             ShopHub
           </span>
         </Link>
@@ -25,9 +25,7 @@ const Header = () => {
           <Link to="/about" className="text-sm font-medium transition-colors hover:text-primary">
             О нас
           </Link>
-          <Link to="/blog" className="text-sm font-medium transition-colors hover:text-primary">
-            Блог
-          </Link>
+
           <Link to="/faq" className="text-sm font-medium transition-colors hover:text-primary">
             FAQ
           </Link>

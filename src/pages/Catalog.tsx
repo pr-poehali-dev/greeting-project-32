@@ -27,74 +27,92 @@ const Catalog = () => {
   const products: Product[] = [
     {
       id: 1,
-      name: "Беспроводные наушники Premium",
-      price: 8999,
-      category: "electronics",
-      image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
-      brand: "TechBrand",
+      name: "Джинсовая куртка",
+      price: 4999,
+      category: "outerwear",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      brand: "Denim Co",
       inStock: true
     },
     {
       id: 2,
-      name: "Умные часы Pro",
-      price: 15999,
-      category: "electronics",
-      image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
-      brand: "SmartWatch",
+      name: "Летнее платье",
+      price: 2999,
+      category: "dresses",
+      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+      brand: "Fashion Style",
       inStock: true
     },
     {
       id: 3,
-      name: "Спортивный рюкзак",
-      price: 4999,
-      category: "accessories",
-      image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
-      brand: "OutdoorGear",
+      name: "Спортивные кроссовки",
+      price: 5499,
+      category: "shoes",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      brand: "SportWear",
       inStock: true
     },
     {
       id: 4,
-      name: "Термос для напитков",
-      price: 1299,
-      category: "sport",
-      image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
-      brand: "Hydro",
+      name: "Белая футболка",
+      price: 899,
+      category: "tops",
+      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      brand: "Basic Line",
       inStock: true
     },
     {
       id: 5,
-      name: "Bluetooth колонка",
+      name: "Черные джинсы",
       price: 3499,
-      category: "electronics",
-      image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
-      brand: "AudioMax",
+      category: "pants",
+      image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+      brand: "Denim Co",
       inStock: true
     },
     {
       id: 6,
-      name: "Фитнес-браслет",
-      price: 2999,
-      category: "sport",
-      image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
-      brand: "FitTrack",
+      name: "Кожаная куртка",
+      price: 12999,
+      category: "outerwear",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      brand: "Premium Leather",
       inStock: false
+    },
+    {
+      id: 7,
+      name: "Спортивные штаны",
+      price: 2499,
+      category: "pants",
+      image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+      brand: "SportWear",
+      inStock: true
+    },
+    {
+      id: 8,
+      name: "Вечернее платье",
+      price: 6999,
+      category: "dresses",
+      image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400",
+      brand: "Fashion Style",
+      inStock: true
     },
   ];
 
   const categories = [
-    { id: "electronics", label: "Электроника" },
-    { id: "sport", label: "Спорт" },
-    { id: "accessories", label: "Аксессуары" },
-    { id: "home", label: "Дом и сад" },
+    { id: "outerwear", label: "Верхняя одежда" },
+    { id: "dresses", label: "Платья" },
+    { id: "tops", label: "Футболки и топы" },
+    { id: "pants", label: "Брюки и джинсы" },
+    { id: "shoes", label: "Обувь" },
   ];
 
   const brands = [
-    { id: "TechBrand", label: "TechBrand" },
-    { id: "SmartWatch", label: "SmartWatch" },
-    { id: "OutdoorGear", label: "OutdoorGear" },
-    { id: "Hydro", label: "Hydro" },
-    { id: "AudioMax", label: "AudioMax" },
-    { id: "FitTrack", label: "FitTrack" },
+    { id: "Denim Co", label: "Denim Co" },
+    { id: "Fashion Style", label: "Fashion Style" },
+    { id: "SportWear", label: "SportWear" },
+    { id: "Basic Line", label: "Basic Line" },
+    { id: "Premium Leather", label: "Premium Leather" },
   ];
 
   const toggleCategory = (categoryId: string) => {

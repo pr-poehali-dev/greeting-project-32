@@ -13,7 +13,7 @@ import Profile from "./pages/Profile";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import FAQ from "./pages/FAQ";
-import Blog from "./pages/Blog";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -36,7 +36,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/faq" element={<FAQ />} />
-              <Route path="/blog" element={<Blog />} />
+
               <Route path="/old" element={<Index />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
