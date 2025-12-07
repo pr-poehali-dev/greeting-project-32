@@ -7,10 +7,10 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center">
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-gray-800 to-black flex items-center justify-center">
             <Icon name="ShoppingBag" className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold text-gray-400">
+          <span className="text-xl font-bold text-black">
             ShopHub
           </span>
         </Link>
