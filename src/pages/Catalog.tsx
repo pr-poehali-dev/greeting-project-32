@@ -30,7 +30,7 @@ const Catalog = () => {
       name: "Джинсовая куртка",
       price: 4999,
       category: "outerwear",
-      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&h=500&fit=crop",
       brand: "Denim Co",
       inStock: true
     },
@@ -39,7 +39,7 @@ const Catalog = () => {
       name: "Летнее платье",
       price: 2999,
       category: "dresses",
-      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=500&fit=crop",
       brand: "Fashion Style",
       inStock: true
     },
@@ -48,7 +48,7 @@ const Catalog = () => {
       name: "Спортивные кроссовки",
       price: 5499,
       category: "shoes",
-      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop",
       brand: "SportWear",
       inStock: true
     },
@@ -57,7 +57,7 @@ const Catalog = () => {
       name: "Белая футболка",
       price: 899,
       category: "tops",
-      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
       brand: "Basic Line",
       inStock: true
     },
@@ -66,7 +66,7 @@ const Catalog = () => {
       name: "Черные джинсы",
       price: 3499,
       category: "pants",
-      image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+      image: "https://images.unsplash.com/photo-1542272454315-7f6d5b926ec9?w=400&h=500&fit=crop",
       brand: "Denim Co",
       inStock: true
     },
@@ -75,7 +75,7 @@ const Catalog = () => {
       name: "Кожаная куртка",
       price: 12999,
       category: "outerwear",
-      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
       brand: "Premium Leather",
       inStock: false
     },
@@ -84,7 +84,7 @@ const Catalog = () => {
       name: "Спортивные штаны",
       price: 2499,
       category: "pants",
-      image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+      image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&h=500&fit=crop",
       brand: "SportWear",
       inStock: true
     },
@@ -93,7 +93,7 @@ const Catalog = () => {
       name: "Вечернее платье",
       price: 6999,
       category: "dresses",
-      image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400",
+      image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&h=500&fit=crop",
       brand: "Fashion Style",
       inStock: true
     },
